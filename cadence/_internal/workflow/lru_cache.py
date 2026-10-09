@@ -1,8 +1,4 @@
-"""Bounded LRU cache used for the sticky workflow cache.
-
-Python port of the Go client's ``internal/common/cache`` LRU, without pin
-(ref-counting) and TTL support since the sticky workflow cache uses neither.
-"""
+"""Bounded LRU cache used for the sticky workflow cache."""
 
 import threading
 from collections import OrderedDict
